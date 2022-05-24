@@ -63,8 +63,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<!--<li><a href="index.html">Kezdőlap</a></li>-->
-								<li><a href="about.html">Rólunk</a></li>
+								<li><a href="index.html">Kezdőlap</a></li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tehetséggondozás <span class="ion-ios-arrow-down"></span></a>
 									<ul class="dropdown-menu">
@@ -78,7 +77,7 @@
 									<ul class="dropdown-menu">
 										<li><a href="class.html">Class Értékeink <br>Egyesület</a></li>
 										<li><a href="muveszeti.html">Művészeti Alap <br>Értetek Egyesület</a></li>
-										<li><a href="felajanlas.html">Adó 1%</a></li>
+                    <li><a href="felajanlas.html">Adó 1%</a></li>
 										<!--<li><a href="blog-right-sidebar.html">Artstart4you</a></li>-->
 									</ul>
 								</li>
@@ -89,7 +88,6 @@
 										<li><a href="coming-soon.html">Megjelenések</a></li>
 									</ul>
 								</li>
-								<li><a href="documents.html">Dokumentumok</a></li>
 								<li><a href="contact.php">Kapcsolat</a></li>
 							</ul>
 							</div><!-- /.navbar-collapse -->
@@ -99,19 +97,17 @@
 				</div>
 			</div>
 			</header><!-- header close -->
-      <!-- Slider Start -->
-<section class="slider">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="block">
-					<h1 class="animated fadeInUp">Lépj kapcsolatba velünk</h1>
-					<p class="animated fadeInUp">Amennyiben üzenni szeretnél nekünk az alábbi adatok megoldásával megteheted</p>
-					
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="page-title bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Lépj kapcsolatba velünk</h1>
+          <p>Amennyiben üzenni szeretnél nekünk az alábbi adatok megoldásával megteheted</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <p></p>
 <p></p>
@@ -123,19 +119,19 @@
         <div class="row">
         <form action="" method="post" class="bg-light p-5 contact-form">
               <div class="col-md-6 col-sm-12">
-                <label>Teljes neved</label>
+                <label>Teljes név</label>
                 <input type="text" name="fullName" class="form-control" required>
               </div>
               <div class="col-md-6 col-sm-12">
-                <label>Email címed</label>
+                <label>Email</label>
                 <input type="text" name="email" class="form-control" required>
               </div>
               <div class="col-md-6 col-sm-12">
-                <p></p><label>Tárgy</label>
+                <label>Tárgy </label>
                 <input type="text" name="phone" class="form-control" required>
               </div>
-             <div class="col-md-6 col-sm-12">
-                <p></p><label>Üzeneted</label>
+              <div class="col-md-6 col-sm-12">
+                <label>Üzenet</label>
                 <textarea cols="30" rows="7" name="message" class="form-control" ></textarea>
               </div>
               <div class="col-md-6 col-sm-12">
@@ -149,20 +145,21 @@
                     <h2>Elérhetőségünk</h2>
                     <ul class="address-block">
                         <li>
-                            <i class="ion-ios-location-outline"></i><b>Cím:</b> Csíkszereda, Temesvári sugárút 24/28., Románia
+                            <i class="ion-ios-location-outline"></i>Csíkszereda, Temesvári sugárút 24/28., Románia
                         </li>
                         <li>
-                            <i class="ion-ios-email-outline"></i><b>Email:</b> artstart4u2022@gmail.com
+                            <i class="ion-ios-email-outline"></i>Email: artstart4u2022@gmail.com
                         </li>
                         <li>
-                            <i class="ion-ios-telephone-outline"></i><b>Telefon:</b>
+                            <i class="ion-ios-telephone-outline"></i>Telefon:
                         </li>
                     </ul>
                     <ul class="social-icons">
                         <li>
+                            <!--<a href="http://www.themefisher.com"><i class="ion-social-twitter-outline"></i></a>-->
+                        </li>
+                        <li>
                             <a href="https://www.facebook.com/ArtStart4UEgyesuletek/?ref=page_internal"><i class="ion-social-facebook-outline"></i></a>
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-							              <li><a href=""><i class="ion-social-instagram"></i></a></li>
                         </li>
                     </ul>
                 </div>
@@ -184,10 +181,10 @@
 			<div class="col-md-12">
 				<div class="footer-manu">
 					<ul>
-          <li><a href="about.html">Rólunk</a></li>
+						<li><a href="#">Rólunk</a></li>
 						<li><a href="contact.php">Kapcsolat</a></li>
-						<li><a href="about.html">Egyesület tagjai</a></li>
-            <li><a href="impress.html">Impresszum</a></li>
+						<li><a href="#">Egyesület tagjai</a></li>
+                        <li><a href="impress.html">Impresszum</a></li>
 						<li><a href="policy.html">Adatvédelem</a></li>
 					</ul>
 				</div>
